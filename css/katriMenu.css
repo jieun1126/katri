@@ -1,0 +1,257 @@
+@charset "UTF-8"; 
+
+/* import */
+@import url(reset.css);
+
+/* #skipNavi,.blind {position: fixed; top:-999999999;} */
+
+body {font-size: 13px; font-family: "맑은고딕","Malgun Gothic", dotum,"돋움",sans-serif;  }
+a {text-decoration: none;  color:#444;}
+a:hover {color:#2a67a1;  } /* 수정 */
+
+#wrap{width:100%;background:url("../images/bg_wrapper.gif") no-repeat 50% 0;}
+#wrap header {width: 980px; height: 155px; margin: 0 auto;  position: relative;}
+#wrap header form {position: absolute; top:0; right:0;}
+
+/* top menu */
+#wrap header .topMenu {
+    padding-top: 9px; font-size: 12px;
+}
+#wrap header .topMenu dd {float: left;
+margin-right: 11px; padding-right: 15px;
+}
+#wrap header .topMenu .login {
+    background: url("../images/icon_quickBar.gif") no-repeat 100% 60%;
+}
+#wrap header .topMenu .lang{
+    position: relative;
+    padding-right: 11px;
+    background: url("../images/icon_sc_arrow.gif") no-repeat 100% 7px;
+}
+#wrap header .topMenu .lang ul{
+    position: absolute; top:31px; left:-10px; 
+    width: 120px; padding: 15px;
+    border:1px solid #bcbcbc; background: #f8f9fb;
+    display: none;
+}
+#wrap header .topMenu .lang ul li {padding-left: 15px;
+background: url("../images/icon_dot.gif")no-repeat 0 50%;
+line-height: 200%;}
+#wrap header .topMenu .lang a {color:#fff; text-decoration: none;}
+#wrap header .topMenu .login a {color:#fff; text-decoration: none;}
+#wrap header .topMenu .custom a {
+    color:aqua; text-decoration: none; font-weight: bold;}
+
+
+/* search */
+#wrap header .search {padding-left: 713px;}
+#wrap header .search dd{float: left; margin-right: 30px; 
+    padding-right: 12px; background: url("../images/icon_sc_arrow.gif") no-repeat 100% 50%;}
+#wrap header .search dd a{color:#fff; 
+    font-size: 15px; font-weight: bold; text-decoration: none;}
+
+/* logo */
+
+#wrap header .logo {padding-top: 60px;}
+
+/* menu */
+#wrap header ul.gnb {position: relative; top:-41px; left:284px;}
+
+/* sub menu */
+#wrap header ul.gnb ul {
+    display: none;
+}
+#wrap header ul.gnb li.nav{float: left; padding-right: 69px;}
+#wrap header ul.gnb>li>a{display: block; height: 70px;} 
+
+#wrap header ul.gnb li.nav .last {border-right:none;}
+#wrap header ul.gnb li.nav dt {
+    margin-top: 20px;
+    margin-bottom: 12px;
+    padding: 10px 15px;
+    background: #f0f1f6;
+    font-weight: bold; color:#333;
+    letter-spacing:-1px;
+}
+.nav dd a,.nav li a {
+    padding-left: 10px; 
+    background: url("../images/icon_dot.gif")no-repeat 0 50%;
+    color:#555; line-height: 200%;
+}
+.nav dd a:hover,.nav li a:hover {
+    color:#2a67a1; font-weight: bold;
+}
+ul.gnb .menu1,
+ul.gnb .menu2 { 
+    position: absolute; top:69px; 
+    left:-284px;
+    z-index:999;
+    width: 980px; 
+    border:1px solid #bcbcbc;
+    background: #fff;
+}
+
+ul.gnb .menu2, .menu3, .menu4, .menu5 {display: none;}
+
+ul.gnb .menu1 dl {
+    float: left;
+    width: 155px;
+    height: 400px;
+    padding: 0 20px;
+    border-right:1px solid #e8e8e8;
+}
+ul.gnb .menu2 h3 {
+    padding: 10px; 
+    background: #e8f1fe;
+    font-weight: bold; 
+    color:#2a67a1;
+    text-align: center;
+}
+ul.gnb .menu2 .first {
+    float: left;
+    padding-right: 40px;
+}
+ul.gnb .menu2 .scnd {
+    float:right;
+}
+ul.gnb .menu2 li {float: left;
+height: 430px; padding: 20px;
+background-repeat: 1px solid #e8e8e8;
+}
+ul.gnb .menu2 .top {margin-top: 60px;}
+
+ul.gnb .menu3,
+ul.gnb .menu4,
+ul.gnb .menu5 {position: absolute;
+left: 0; top: 69px; z-index:99999; 
+padding: 20px; border:1px solid #bcbcbc;
+background: #fff;
+letter-spacing:-1px; 
+line-height:210%;
+
+}
+
+ul.gnb .menu3 {left: 240px; width: 140px;}
+ul.gnb .menu4 {left: 380px; width: 140px;}
+ul.gnb .menu5 {left: 515px; width: 140px;}
+
+
+/* total menu */
+.totalMenu dt{position: absolute;top:79px;
+right:0;}
+.totalMenu dt a {display: block;
+width: 38px; height: 38px;
+text-indent:-999999999px;
+background: url("../images/btn_allmenu.gif") no-repeat 0 0;
+}
+
+
+/* 슬라이딩  */
+#wrap div.slider{width: 100%; height: 400px;}
+#wrap div.slider div#mySwipe{width: 100%; height: 400px;}
+#wrap div.slider div#mySwipe>img{width: 100%; height: 400px;}
+#wrap div.slider div.swipe{overflow: hidden; position: relative;}
+#wrap div.slider div.swipe ul.swipe-wrap>li{float: left; width: 100%; height: 400px; position: relative;}
+#wrap div.slider div.swipe ul.swipe-wrap>li>ul{width: 980px; margin: 0 auto; padding-top: 240px;}
+#wrap div.slider div.swipe ul.swipe-wrap>li>ul>li{float: left; margin-right: 5px;}
+#wrap div.slider div.swipe ul.swipe-wrap>li:nth-child(1){background: url("../images/main_visual1.jpg")no-repeat center;}
+#wrap div.slider div.swipe ul.swipe-wrap>li:nth-child(2){background: url("../images/main_visual2.jpg")no-repeat center;}
+#wrap div.slider div.swipe ul.swipe-wrap>li:nth-child(3){background: url("../images/main_visual3.jpg")no-repeat center;}
+#wrap div.slider div.swipe ul.swipe-wrap>li:nth-child(4){background: url("../images/main_visual4.jpg")no-repeat center;}
+#wrap div.slider div.swipe ul.swipe-wrap>li:nth-child(5){background: url("../images/main_visual5.jpg")no-repeat center;}
+#wrap div.slider div.swipe ul.swipe-wrap>li:nth-child(6){background: url("../images/main_visual6.jpg")no-repeat center;}
+
+
+.service{
+    margin: 0 auto;
+    width: 980px;
+    height: 300px;
+    position: relative;
+}
+
+.service .service_txt {
+    position: absolute;
+    left: 50%;
+    margin-top: 60px;
+    margin-left: -100px;
+}
+
+.service .rollbanr {width: 980px;
+position: absolute; left: 50%;
+ margin-left: -450px;
+top: 130px;}
+.service .rollbanr li {float: left;
+width: 140px; border-right: 1px solid #ccc; text-align: center;}
+.service .rollbanr li:first-child {border: none; width: 40px;}
+.service .rollbanr li:first-child img {margin-top: 50px;}
+.service .rollbanr li:nth-child(7) {border: none;}
+.service .rollbanr li:last-child {border: none; width: 40px;}
+.service .rollbanr li:last-child img {margin-top: 50px;}
+.service .rollbanr li:nth-child(3) img {margin-top: 10px; margin-bottom: 15px;}
+.service .rollbanr li img {margin-bottom: 10px;}
+.bbs {width: 100%; background: url(../images/bg_Mnotice.gif)no-repeat 50% 0;}
+.bbs .bbs_inner {width: 980px; height: 260px; margin: 0 auto;}
+.bbs .bbs_inner div.notice {float: left; width: 490px; height: 260px; position: relative;}
+.bbs .bbs_inner div.notice .plus_btn {position: absolute; top: 30px; right: 10px;}
+.bbs .bbs_inner div.notice h2 {width: 70px; height: 16px; float: left; margin-top: 30px;
+margin-right: 20px; cursor: pointer; display: block; background: url(../images/icon_bar1x11_2.gif)no-repeat 100% 100%}
+.bbs .bbs_inner div.notice h2.on+ul {display: block;}
+.bbs .bbs_inner div.notice ul {display: none; width: 490px; height: 200px;
+position: absolute; top: 60px;}
+.bbs .bbs_inner div.notice ul li {height: 35px; line-height: 35px; padding-left:15px; background: url(../images/icon_dot3x3.gif) no-repeat 0 50%;}
+.bbs .bbs_inner div.notice ul li span {float: right; margin-right: 10px;}
+.bbs .bbs_inner div.notice .tab li {float: left; margin-top: 40px; margin-right: 25px;}
+.bbs .bbs_inner div.customer {width: 326px; height: 260px; float: left;}
+.bbs .bbs_inner div.customer h3 {margin: 30px  0 0 20px;}
+.bbs .bbs_inner div.customer ul li {float: left; height: 82px; width: 105px; text-align: center;
+background: url(../images/icon_dotBg2.gif)repeat-y right 0;}
+.bbs .bbs_inner div.customer ul li:first-child a {display: block; background: url(../images/icon_i1.gif) no-repeat 0 0;
+padding-top: 50px;}
+.bbs .bbs_inner div.customer ul li:nth-child(2) a {display: block; background: url(../images/icon_i2.gif) no-repeat 0 0;
+padding-top: 50px;}
+.bbs .bbs_inner div.customer ul li:nth-child(3) {background: none;}
+.bbs .bbs_inner div.customer ul li:nth-child(3) a {display: block; background: url(../images/icon_i3.gif) no-repeat 0 0;
+padding-top: 50px;}
+.bbs .bbs_inner div.customer ul li:nth-child(4) a {display: block; background: url(../images/icon_i4.gif) no-repeat 0 0;
+padding-top: 50px; margin-top: 15px;}
+.bbs .bbs_inner div.customer ul li:nth-child(5) a {display: block; background: url(../images/icon_i5.gif) no-repeat 0 0;
+padding-top: 50px;  margin-top: 15px;}
+.bbs .bbs_inner div.customer ul li:last-child{background: none;}
+.bbs .bbs_inner div.customer ul li:last-child a {display: block; background: url(../images/icon_i6.gif) no-repeat 0 0;
+padding-top: 50px;  margin-top: 15px;}
+.bbs .bbs_inner div.right_Con {width: 164px; height: 260px; float: left;
+position: relative;}
+.bbs .bbs_inner div.right_Con p.right_Con1 a {display: block; width: 164px; height: 80px; position: absolute;
+top: 61px; text-indent :-999999999px;}
+.bbs .bbs_inner div.right_Con p.right_Con2 a {display: block; width: 164px; height: 80px; position: absolute;
+    top: 151px; text-indent :-999999999px;}
+
+
+#wrap .footlist {width: 100%; height: 325px; background:#5d6a7b;}
+
+.footlist ul {width: 980px; height: 325px; margin: 0 auto; padding: 30px 0;}
+
+.footlist ul li a {color: #fff;}
+
+.footlist ul li dl  {float: left; padding: 0 10px; width: 115px; color: #fff;}
+
+.footlist ul li dl dt {font-weight: bold; font-size: 18px;
+padding: 10px 5px;}
+.footlist ul li dl dd {background: url("../images/icon_dot3x3.gif")no-repeat 0 13px ;
+padding-left:13px; font-size: 12px;}
+
+#wrap footer {width: 100%; height: 150px; background: #394b61;}
+#wrap footer .footer_inner {width: 980px; height: 150px; margin: 0 auto;}
+#wrap footer .footer_inner .footer_left {width: 750px; height: 150px; float: left;}
+#wrap footer .footer_inner .footer_right {width: 230px; float: left; position: relative;}
+#wrap footer .footer_inner .footer_left .bmenu {height: 75px;}
+#wrap footer .footer_inner .footer_left .copyright {height: 75px; color: #fff;}
+#wrap footer .footer_inner .footer_left .bmenu ul {padding-top: 40px;}
+#wrap footer .footer_inner .footer_left .bmenu ul li {float: left; background: url("../images/icon_bar1x11_2.gif") no-repeat 92% 50% ;
+padding: 0 20px 0 0;}
+#wrap footer .footer_inner .footer_left .bmenu ul li a {display: block; color: #fff; font-weight: bold;}
+#wrap footer .footer_inner .footer_right select {width: 135px; height: 28px; position: absolute; right: 55px; top: 50px;
+}
+#wrap footer .footer_inner .footer_right a.btn {background: url(../images/footer_bg.gif) no-repeat;
+position: absolute; right: 0; display: block; height: 28px; width: 51px; text-align: center;
+top: 50px; padding-top: 4px; font-weight: bold; color: 444px;}
