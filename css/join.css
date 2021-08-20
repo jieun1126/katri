@@ -14,136 +14,53 @@ a:hover {color:#2a67a1;  } /* 수정 */
 #wrap header form {position: absolute; top:0; right:0;}
 
 /* top menu */
-#wrap header .topMenu {
-    padding-top: 9px; font-size: 12px;
-}
-#wrap header .topMenu dd {float: left;
-margin-right: 11px; padding-right: 15px;
-}
-#wrap header .topMenu .login {
-    background: url("../images/icon_quickBar.gif") no-repeat 100% 60%;
-}
-#wrap header .topMenu .lang{
-    position: relative;
-    padding-right: 11px;
-    background: url("../images/icon_sc_arrow.gif") no-repeat 100% 7px;
-}
-#wrap header .topMenu .lang ul{
-    position: absolute; top:31px; left:-10px; 
-    width: 120px; padding: 15px;
-    border:1px solid #bcbcbc; background: #f8f9fb;
-    display: none;
-}
-#wrap header .topMenu .lang ul li {padding-left: 15px;
-background: url("../images/icon_dot.gif")no-repeat 0 50%;
-line-height: 200%;}
+#wrap header .topMenu {padding-top: 9px; font-size: 12px;}
+#wrap header .topMenu dd {float: left; margin-right: 11px; padding-right: 15px;}
+#wrap header .topMenu .login {background: url("../images/icon_quickBar.gif") no-repeat 100% 60%;}
+#wrap header .topMenu .lang{position: relative; padding-right: 11px; background: url("../images/icon_sc_arrow.gif") no-repeat 100% 7px;}
+#wrap header .topMenu .lang ul{position: absolute; top:31px; left:-10px; width: 120px; padding: 15px; border:1px solid #bcbcbc; background: #f8f9fb; display: none;}
+#wrap header .topMenu .lang ul li {padding-left: 15px; background: url("../images/icon_dot.gif")no-repeat 0 50%; line-height: 200%;}
 #wrap header .topMenu .lang a {color:#fff; text-decoration: none;}
 #wrap header .topMenu .login a {color:#fff; text-decoration: none;}
-#wrap header .topMenu .custom a {
-    color:aqua; text-decoration: none; font-weight: bold;}
-
+#wrap header .topMenu .custom a {color:aqua; text-decoration: none; font-weight: bold;}
 
 /* search */
 #wrap header .search {padding-left: 713px;}
-#wrap header .search dd{float: left; margin-right: 30px; 
-    padding-right: 12px; background: url("../images/icon_sc_arrow.gif") no-repeat 100% 50%;}
-#wrap header .search dd a{color:#fff; 
-    font-size: 15px; font-weight: bold; text-decoration: none;}
+#wrap header .search dd{float: left; margin-right: 30px; padding-right: 12px; background: url("../images/icon_sc_arrow.gif") no-repeat 100% 50%;}
+#wrap header .search dd a{color:#fff; font-size: 15px; font-weight: bold; text-decoration: none;}
 
 /* logo */
-
 #wrap header .logo {padding-top: 60px;}
 
 /* menu */
 #wrap header ul.gnb {position: relative; top:-41px; left:284px;}
 
 /* sub menu */
-#wrap header ul.gnb ul {
-    display: none;
-}
+#wrap header ul.gnb ul {display: none;}
 #wrap header ul.gnb li.nav{float: left; padding-right: 69px;}
 #wrap header ul.gnb>li>a{display: block; height: 70px;} 
 
 #wrap header ul.gnb li.nav .last {border-right:none;}
-#wrap header ul.gnb li.nav dt {
-    margin-top: 20px;
-    margin-bottom: 12px;
-    padding: 10px 15px;
-    background: #f0f1f6;
-    font-weight: bold; color:#333;
-    letter-spacing:-1px;
-}
-.nav dd a,.nav li a {
-    padding-left: 10px; 
-    background: url("../images/icon_dot.gif")no-repeat 0 50%;
-    color:#555; line-height: 200%;
-}
-.nav dd a:hover,.nav li a:hover {
-    color:#2a67a1; font-weight: bold;
-}
-ul.gnb .menu1,
-ul.gnb .menu2 { 
-    position: absolute; top:69px; 
-    left:-284px;
-    z-index:999;
-    width: 980px; 
-    border:1px solid #bcbcbc;
-    background: #fff;
-}
-
+#wrap header ul.gnb li.nav dt {margin-top: 20px; margin-bottom: 12px; padding: 10px 15px; background: #f0f1f6; font-weight: bold; color:#333; letter-spacing:-1px;}
+.nav dd a,.nav li a {padding-left: 10px; background: url("../images/icon_dot.gif")no-repeat 0 50%; color:#555; line-height: 200%;}
+.nav dd a:hover,.nav li a:hover {color:#2a67a1; font-weight: bold;}
+ul.gnb .menu1, ul.gnb .menu2 {position: absolute; top:69px; left:-284px; z-index:999; width: 980px; border:1px solid #bcbcbc; background: #fff;}
 ul.gnb .menu2, .menu3, .menu4, .menu5 {display: none;}
 
-ul.gnb .menu1 dl {
-    float: left;
-    width: 155px;
-    height: 400px;
-    padding: 0 20px;
-    border-right:1px solid #e8e8e8;
-}
-ul.gnb .menu2 h3 {
-    padding: 10px; 
-    background: #e8f1fe;
-    font-weight: bold; 
-    color:#2a67a1;
-    text-align: center;
-}
-ul.gnb .menu2 .first {
-    float: left;
-    padding-right: 40px;
-}
-ul.gnb .menu2 .scnd {
-    float:right;
-}
-ul.gnb .menu2 li {float: left;
-height: 430px; padding: 20px;
-background-repeat: 1px solid #e8e8e8;
-}
+ul.gnb .menu1 dl {float: left; width: 155px; height: 400px; padding: 0 20px; border-right:1px solid #e8e8e8;}
+ul.gnb .menu2 h3 {padding: 10px; background: #e8f1fe; font-weight: bold; color:#2a67a1; text-align: center;}
+ul.gnb .menu2 .first {float: left; padding-right: 40px;}
+ul.gnb .menu2 .scnd {float:right;}
+ul.gnb .menu2 li {float: left; height: 430px; padding: 20px; background-repeat: 1px solid #e8e8e8;}
 ul.gnb .menu2 .top {margin-top: 60px;}
-
-ul.gnb .menu3,
-ul.gnb .menu4,
-ul.gnb .menu5 {position: absolute;
-left: 0; top: 69px; z-index:99999; 
-padding: 20px; border:1px solid #bcbcbc;
-background: #fff;
-letter-spacing:-1px; 
-line-height:210%;
-
-}
-
+ul.gnb .menu3, ul.gnb .menu4, ul.gnb .menu5 {position: absolute; left: 0; top: 69px; z-index:99999; padding: 20px; border:1px solid #bcbcbc; background: #fff; letter-spacing:-1px; line-height:210%;}
 ul.gnb .menu3 {left: 240px; width: 140px;}
 ul.gnb .menu4 {left: 380px; width: 140px;}
 ul.gnb .menu5 {left: 515px; width: 140px;}
 
-
 /* total menu */
-.totalMenu dt{position: absolute;top:79px;
-right:0;}
-.totalMenu dt a {display: block;
-width: 38px; height: 38px;
-text-indent:-999999999px;
-background: url("../images/btn_allmenu.gif") no-repeat 0 0;
-}
+.totalMenu dt{position: absolute;top:79px; right:0;}
+.totalMenu dt a {display: block; width: 38px; height: 38px; text-indent:-999999999px; background: url("../images/btn_allmenu.gif") no-repeat 0 0;}
 
 #container .breadcrumb {width: 100%; height: 40px; background: #fbfbfb; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
 #container .breadcrumb .breadcrumb_inner {width: 980px; height: 40px; margin: 0 auto; position: relative;}
@@ -157,26 +74,22 @@ background: url("../images/btn_allmenu.gif") no-repeat 0 0;
 
 #container .bbs .lnb {width: 200px; height: 300px; padding-top: 40px; float: left;}
 #container .bbs .lnb ul {border-left: 1px solid #ccc; border-right:1px solid #ccc}
-#container .bbs .lnb ul li {height: 50px; line-height: 50px; border-bottom: 1px solid #ccc; padding-left: 10px;
-background: #f0f1f6;}
+#container .bbs .lnb ul li {height: 50px; line-height: 50px; border-bottom: 1px solid #ccc; padding-left: 10px; background: #f0f1f6;}
 #container .bbs .lnb ul li a {display: block;}
-#container .bbs .lnb ul li.title {height: 60px; line-height: 60px; font-size: 20px; font-weight: bold;
-background: #4563a1; padding-left: 10px;}
+#container .bbs .lnb ul li.title {height: 60px; line-height: 60px; font-size: 20px; font-weight: bold; background: #4563a1; padding-left: 10px;}
 #container .bbs .lnb ul li.title a {color: #fff;}
 #container .bbs .lnb ul li.notice {background: #fff;}
 #container .bbs .lnb ul li.notice a {color: #000; font-weight: 500; font-size: 16px;}
 #container .bbs {width: 980px; height: 887px; margin: 0 auto;}
 
-.bbs .right h2 {font-size: 35px; font-weight: bold; padding: 40px 0 10px 10px;
-border-bottom: 3px solid #ddd;}
+.bbs .right h2 {font-size: 35px; font-weight: bold; padding: 40px 0 10px 10px; border-bottom: 3px solid #ddd;}
 
 #container .bbs .right{width: 740px; float: left; margin-left: 40px;}
 
 #container .bbs .right fieldset {margin-top: 35px;}
 #container .bbs .right table {width: 740px; border-top: 3px solid #2a67a1;}
 #container .bbs .right table tr {height: 50px; border-bottom: 1px solid #dedede;}
-#container .bbs .right table th {width: 130px; padding-left: 20px; border-right: 1px solid #dedede;
-    background:#f8f9fb; font-weight: bold;}
+#container .bbs .right table th {width: 130px; padding-left: 20px; border-right: 1px solid #dedede; background:#f8f9fb; font-weight: bold;}
 #container .bbs .right table .first th {padding-left: 40px;}
 #container .bbs .right table td {padding-left: 10px;}
 #container .bbs .right table td span {font-size: 12px; letter-spacing: -1px; color: #456186;}
@@ -202,10 +115,8 @@ border-bottom: 3px solid #ddd;}
 
 .footlist ul li dl  {float: left; padding: 0 10px; width: 115px; color: #fff;}
 
-.footlist ul li dl dt {font-weight: bold; font-size: 18px;
-padding: 10px 5px;}
-.footlist ul li dl dd {background: url("../images/icon_dot3x3.gif")no-repeat 0 13px ;
-padding-left:13px; font-size: 12px;}
+.footlist ul li dl dt {font-weight: bold; font-size: 18px; padding: 10px 5px;}
+.footlist ul li dl dd {background: url("../images/icon_dot3x3.gif")no-repeat 0 13px; padding-left:13px; font-size: 12px;}
 
 #wrap footer {width: 100%; height: 150px; background: #394b61;}
 #wrap footer .footer_inner {width: 980px; height: 150px; margin: 0 auto;}
@@ -214,11 +125,7 @@ padding-left:13px; font-size: 12px;}
 #wrap footer .footer_inner .footer_left .bmenu {height: 75px;}
 #wrap footer .footer_inner .footer_left .copyright {height: 75px; color: #fff;}
 #wrap footer .footer_inner .footer_left .bmenu ul {padding-top: 40px;}
-#wrap footer .footer_inner .footer_left .bmenu ul li {float: left; background: url("../images/icon_bar1x11_2.gif") no-repeat 92% 50% ;
-padding: 0 20px 0 0;}
+#wrap footer .footer_inner .footer_left .bmenu ul li {float: left; background: url("../images/icon_bar1x11_2.gif") no-repeat 92% 50%; padding: 0 20px 0 0;}
 #wrap footer .footer_inner .footer_left .bmenu ul li a {display: block; color: #fff; font-weight: bold;}
-#wrap footer .footer_inner .footer_right select {width: 135px; height: 28px; position: absolute; right: 55px; top: 50px;
-}
-#wrap footer .footer_inner .footer_right a.btn {background: url(../images/footer_bg.gif) no-repeat;
-position: absolute; right: 0; display: block; height: 28px; width: 51px; text-align: center;
-top: 50px; padding-top: 4px; font-weight: bold; color: 444px;}
+#wrap footer .footer_inner .footer_right select {width: 135px; height: 28px; position: absolute; right: 55px; top: 50px;}
+#wrap footer .footer_inner .footer_right a.btn {background: url(../images/footer_bg.gif) no-repeat; position: absolute; right: 0; display: block; height: 28px; width: 51px; text-align: center; top: 50px; padding-top: 4px; font-weight: bold; color: 444px;}

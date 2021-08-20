@@ -10,13 +10,14 @@
     <script src="js/swiper.js"></script>
     <script src="js/katriMenu.js"></script>
     <script src="js/katri.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
 </head>
 <body>
 <!-- 본문바로가기 -->
 <div id="skipNavi"><a href="#">본문바로가기</a></div>
     <hr />
     <div id="wrap">  
-<!-- hreader  -->
+<!-- header  -->
         <header>
             <!-- topMenu -->
             <dl class="topMenu">
@@ -43,6 +44,7 @@
             <!-- menu 5ea -->
             <h2 class="blind">주메뉴</h2>
                 <ul id="gnb" class="gnb">
+                    <!-- menu1 -->
                   <li class="nav">
                     <a href="#"><img src="images/gnb1.gif" alt="시험,검사"></a>
                     <ul class="menu1">
@@ -104,8 +106,7 @@
                         </li>
                     </ul>
                  </li>
-
-
+                 <!-- menu2 -->
                  <li class="nav">
                      <a href="#"><img src="images/gnb2.gif" alt="제품인증"></a>
                     <ul class="menu2">
@@ -207,7 +208,7 @@
                     </ul>
                     
                  </li>
-
+                 <!-- menu3 -->
                  <li class="nav">
                      <a href="#"><img src="images/gnb3.gif" alt="연구개발"></a>
                     <ul class="menu3">
@@ -216,6 +217,7 @@
                         <li><a href="#">COSD 국가표준 제개정</a></li>
                     </ul>                    
                  </li>
+                 <!-- menu4 -->
                  <li class="nav">
                      <a href="#"><img src="images/gnb4.gif" alt="신청,결과"></a>
                     <ul class="menu4">
@@ -242,16 +244,14 @@
                 </ul>
                 <!-- all menu -->
                 <dl class="totalMenu">
-                    <dt> <a href="#">전체메뉴열기</a>
-                    </dt>
-                    <dd>
-                        <!-- full menu : ul>li>a -->
-                    </dd>
+                    <dt> <a href="#">전체메뉴열기</a></dt>
+                    <dd></dd>
                 </dl>
-            <!-- totalMenu -->
         </header>
+        <!-- section -->
         <hr />
             <h4 class="blind">메인슬라이딩</h4>
+            <!-- slider -->
             <div class="slider">
                 <div class="slider">
                     <div id="mySwipe" class="swipe">
@@ -304,7 +304,7 @@
                 </div>
             </div>
 
-
+            <!-- service -->
         <div class="service">
             <div class="service_txt"><a href="#"><img src="images/txt_katriservice.gif" alt=""></a></div>
             <ul class="rollbanr">
@@ -325,12 +325,15 @@
             </ul>
         </div>
         
+        <!-- bbs -->
         <div class="bbs">
             <div class="bbs_inner">
+            <!-- notice -->
             <div class="notice">
                 <div class="box">
-                    <div class="plus_btn"><a href="bbs.html"><img src="images/btn_more.gif" alt=""></a></div>
-                    <h2 class="on"><img src="images/tab1_over.gif" alt=""></h2>
+                    <div class="plus_btn"><a href="bbs.html"><img src="images/btn_more.gif" alt="더보기버튼"></a></div>
+                    <!-- tab1 -->
+                    <h2 class="on"><img src="images/tab1_over.gif" alt="공지사항"></h2>
                 <ul class="notice">
                     <li><a href="#">'21년 정기 제 4차 생활용품 안전성 조사 부적합에 따른...</a><span>2021.07.09</span></li>
                     <li><a href="#">사이즈코리아센터, 서울 강남 테헤란로로 이전개소</a><span>2021.07.02</span></li>
@@ -338,7 +341,8 @@
                     <li><a href="#">한국의류시험연구원, 한국패션산업협회 대한민국 패션업계...</a><span>2021.06.02</span></li>
                     <li><a href="#">KATRI, 육군 군수사령부 장병 피복류 품질개선과 섬...</a><span>2021.05.14</span></li>
                 </ul>
-                <h2 class="tab2"><img src="images/tab2.gif" alt=""></h2>
+                <!-- tab2 -->
+                <h2 class="tab2"><img src="images/tab2.gif" alt="관련법령"></h2>
                 <ul class="job">
                     <li><a href="#">정규직전환형 직원 채용공고</a><span>2021.05.18</span></li>
                     <li><a href="#">경력직원 채용공고</a><span>2020.09.09</span></li>
@@ -346,7 +350,8 @@
                     <li><a href="#">2019 정규직전환 인턴직원 채용공고</a><span>2019.07.26</span></li>
                     <li><a href="#">전산분야 전문가 계약직 채용공고</a><span>2019.07.23</span></li>
                 </ul>
-                <h2 class="tab3"><img src="images/tab3.gif" alt=""></h2>
+                <!-- tab3 -->
+                <h2 class="tab3"><img src="images/tab3.gif" alt="채용공고"></h2>
                 <ul class="news">
                     <li><a href="#">[국제섬유신문]'三憂堂 大賞' 섬유&middot;패션...</a><span>2017.06.12</span></li>
                     <li><a href="#">[국제섬유신문] KATRI, 미얀마시험&middot;인증 한수지도</a><span>2016.12.08</span></li>
@@ -354,7 +359,8 @@
                     <li><a href="#">[국제섬유신문] 보호복 국내서도 CE인증 획득 가능</a><span>2016.06.30</span></li>
                     <li><a href="#">[국제섬유신문] KATRI, 패션제품 안전관리&middot;기술동향..</a><span>2016.05.31</span></li>
                 </ul>
-                <h2 class="tab4"><img src="images/tab4.gif" alt=""></h2>
+                <!-- tab4 -->
+                <h2 class="tab4"><img src="images/tab4.gif" alt="보도자료"></h2>
                 <ul class="law">
                     <li><a href="#">공산품안전관리제도 운용요령</a><span>2014.01.02</span></li>
                     <li><a href="#">공산품의 석면안전기준</a><span>2014.01.02</span></li>
@@ -365,6 +371,7 @@
             </div>
             </div>
 
+            <!-- customer service -->
             <div class="customer">
                 <h3><img src="images/txt_customer.gif" alt="고객지원"></h3>
                 <ul>
@@ -375,15 +382,17 @@
                     <li><a href="#">입금계좌<br />안내</a></li>
                     <li><a href="#">찾아<br />오시는 길</a></li>
                 </ul>
-            </div> 
+            </div>
+            <!-- right contents -->
             <div class="right_Con">
-                <h3><img src="images/right_Con_bg.jpg" alt=""></h3>
-                <p class="right_Con1"><a href="">시험의뢰절차영상</a></p>
-                <p class="right_Con2"><a href="">브로슈어</a></p>
+                <h3><img src="images/right_Con_bg.jpg" alt="홍보센터"></h3>
+                <p class="right_Con1"><a href="#">시험의뢰절차영상</a></p>
+                <p class="right_Con2"><a href="#">브로슈어</a></p>
             </div>
             </div>
             </div>         
         
+            <!-- footermenu -->
             <div class="footlist">
                 <ul>
                 <li>
@@ -460,9 +469,11 @@
                 </li>
             </ul>
             </div>
+            <!-- footer -->
         <footer>
             <div class="footer_inner">
                 <div class="footer_left">
+                    <!-- bmenu -->
                 <div class="bmenu">
                     <ul>
                         <li><a href="#">개인정보처리방침</a></li>
@@ -471,11 +482,13 @@
                         <li><a href="#">사이트맵</a></li>
                     </ul>
                 </div>
+                <!-- copyright -->
                 <div class="copyright">
                     서울특별시 동대문구 왕산로 51(용두동) / 사업자등록번호 : 204-82-01330 / TEL : 02-3668-3000 / FAX : 02-3668-2900~1
                     COPYRIGHT 2014 KATRI. ALL RIGHTS RESERVED.   
                 </div>
                 </div>
+                <!-- footer_right -->
                 <div class="footer_right">
                     <select name="#" id="#">
                         <option value="">유관기관 홈페이지</option>

@@ -31,7 +31,7 @@ window.onload=function(){
             }
 
             },500)
-        };
+        }
     }
     for (i=0; i<navLen; i++){
         var navItem = nav.childNodes.item(i);
